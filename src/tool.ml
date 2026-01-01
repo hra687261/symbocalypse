@@ -275,6 +275,5 @@ let fork_and_run_on_file ~i ~fmt ~output_dir ~file ~tool ~timeout =
 
     loop 10
   in
-  Logs.app (fun m -> m "  %a" Run_result.pp result);
   Fmt.pf fmt "%a@\n" Run_result.pp result;
   result
