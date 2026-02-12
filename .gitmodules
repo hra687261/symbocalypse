@@ -21,3 +21,6 @@
 [submodule "tools/soteria"]
 	path = tools/soteria
 	url = https://github.com/soteria-tools/soteria.git
+[submodule "tools/smtzilla"]
+	path = tools/smtzilla
+	url = https://gitlab.ocamlpro.com/hichem/smtzilla.git
